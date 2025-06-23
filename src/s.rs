@@ -15,14 +15,14 @@
 ///
 /// ## Creating an empty string
 /// ```
-/// # use your_crate::s;
+/// # use smacro::s;
 /// let empty = s!();
 /// assert_eq!(empty, String::new());
 /// ```
 ///
 /// ## Converting a value to string
 /// ```
-/// # use your_crate::s;
+/// # use smacro::s;
 /// let hello = s!("Hello, world!");
 /// let number = s!(42);
 /// let boolean = s!(true);
@@ -34,7 +34,7 @@
 ///
 /// ## Format string with arguments
 /// ```
-/// # use your_crate::s;
+/// # use smacro::s;
 /// let name = "Alice";
 /// let age = 30;
 /// let greeting = s!("Hello, {}! You are {} years old.", name, age);
@@ -44,7 +44,7 @@
 ///
 /// ## More complex formatting
 /// ```
-/// # use your_crate::s;
+/// # use smacro::s;
 /// let x = 3.14159;
 /// let formatted = s!("Pi is approximately {:.2}", x);
 ///
